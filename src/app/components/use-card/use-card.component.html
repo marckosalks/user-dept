@@ -1,0 +1,14 @@
+<section class="object-response">
+  <div class="organiza">
+  <ul *ngFor="let user of users">
+   <div class="dividir">
+    <li>{{user.id}}</li>
+  </div>
+  <div class="dividir">
+    <li>{{user.name}}</li>
+  </div>
+    <li>{{user.email}}</li>
+    <li>{{user.department.name}}</li>
+  </ul>
+  </div>
+</section>
